@@ -9,13 +9,16 @@
 		<h1> CPSC 490: Extended Path Tracing Exploration </h1>
 		<p> Wendy Chen <br>
 			Advising Professor: Holly Rushmeier <br>
-			Fall 2016
+			Fall 2016 - Spring 2017
 		</p>
 		<p>
-			<b> Abstract: </b>
+			<b> Overview: </b>
 		</p>
 		<p>
 			Path tracing is an unbiased Monte Carlo rendering technique that can be used to create physically realistic images. Path tracing is one algorithm that solves Kajiya’s “rendering equation” (1986), which describes radiance emitted towards a view direction from a particular point, given functions for incoming light and bidirectional scattering. 
+		</p>
+		<p>
+			<b> Fall term: </b>
 		</p>
 		<p>
 			I have proposed this study of path tracing as a two semester project.  This semester, I have read about path tracing theory and the Monte Carlo methods that the algorithm is built upon.  In my final report, I give an overview of the rendering equation and Monte Carlo methods for evaluating the equation. First, Kajiya’s rendering equation is introduced, and the manner in which it represents light transport is explained.  Next, a brief background and examples of stochastic rendering processes are given.  Much of the report is focused on building up a foundation for understanding Monte Carlo methods.  Extensive discussion is focused on how Monte Carlo numerical integration works, various methods for generating samples, and how Kajiya’s equation can be rewritten to provide an intuitive understanding of how the path tracing algorithm came about. Sampling techniques discussed are uniform random sampling, importance sampling, and multiple importance sampling.  Different forms of Kajiya’s equation that are discussed include the surface form and the path integral form.  Unidirectional path tracing is discussed, and the stochastic processes used in generating paths is described.  
@@ -26,17 +29,33 @@
 		<p>
 			Next term, I would like to build upon this project and extend my current path tracer to make use of more of the sampling methods described, as well as implement a variety of material models.
 		</p>
+		<p>
+			<b> Spring term: </b>
+		</p>
+		<p>
+			This term, I have focused on path tracer system design and extending the implementation of my unidirectional path tracer.  A scene description system was created, along with a parsing system to support it.  The scene description scheme allows the user to define scenes using a restricted set of primitives.  The scene description scheme also supports the inclusion of meshes that are too complex for a user to easily specify by hand.  I optimized the path tracer by adding a kd-tree acceleration structure as well as multi-threading.  I extended the path tracer's support for multiple light types and material models.  I extended the camera model to account for depth of field.  Certain features build off last semester's study of Monte Carlo Integration and sampling techniques. 
+		</p>
 
 
-		<b> Links: </b>
+		<b> Fall 2016 Links: </b>
 		<br>
-		<a href="gallery.html"> Image Gallery </a>
+		<a href="gallery_fall.html"> Fall 2016 Image Gallery </a>
 		<br>
-		<a href="ChenWendy_490Proposal.pdf"> Initial Project Proposal </a>
+		<a href="ChenWendy_490Fall2016Proposal.pdf"> Fall 2016 Initial Project Proposal </a>
 		<br>
-		<a href="ChenWendy_CPSC490Fall2016.pdf"> Final Project Report </a>
+		<a href="ChenWendy_CPSC490Fall2016.pdf"> Fall 2016 Final Project Report </a>
 		<br>
-		<a href="https://github.com/vverovvero/cs490fa"> Source Code </a>
+		<a href="https://github.com/vverovvero/cs490fa"> Fall 2016 Source Code </a>
+		<br>
+		<b> Spring 2016 Links: </b>
+		<br>
+		<a href="gallery_spring.html"> Spring 2017 Image Gallery </a>
+		<br>
+		<a href="ChenWendy_490Spring2017Proposal.pdf"> Spring 2017 Initial Project Proposal </a>
+		<br>
+		<a href="ChenWendy_CPSC490Spring2017.pdf"> Spring 2017 Final Project Report </a>
+		<br>
+		<a href="https://github.com/vverovvero/cs490sp"> Spring Source Code </a>
 
 	<body>
 </html>
